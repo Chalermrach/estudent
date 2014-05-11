@@ -1,0 +1,3 @@
+{% for item in item %}
+ <li>{{ item.namm | e }}<li/>
+{% endfor %}
